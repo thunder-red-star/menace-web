@@ -255,6 +255,11 @@ let handleCellClick = async function (event) {
 						oBoards.pop();
 						throw new Error('MENACE didn\'t make a move (did it find a board?)');
 					}
+					if (isNaN(move[0])) {
+						// MENACE has no moves left.
+						gameStatus.innerHTML = 'MENACE has no weights left to play with!';
+						return;
+					}
 					console.log(`Menace player chose to play on row ${move[0]} and column ${move[1]}`);
 					// Attempt to make the move
 					success = currentGameState.makeMove(move[0], move[1]);
@@ -386,4 +391,20 @@ for (let i = 0; i < 3; i++) {
 		let cell = document.getElementById(`cell-${i}-${j}`);
 		cell.addEventListener('click', handleCellClick);
 	}
+}
+
+// Check if the user has set weights for the game.
+if (!localStorage.getItem('weights')) {
+	// Disable all buttons.
+	for (let i = 0; i < 3; i++) {
+		for (let j = 0; j < 3; j++) {
+			let cell = document.getElementById(`cell-${i}-${j}`);
+			cell.disabled = true;
+		}
+	}
+	// Disable the reset button.
+	playAsOButton.innerHTML = 'Create an AI first!'
+	playAsOButton.disabled = true;
+	playAsXButton.innerHTML = 'Create an AI first!'
+	playAsXButton.disabled = true;
 }
