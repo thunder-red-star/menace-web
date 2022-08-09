@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MENACE -- Matchbox Educable Noughts and Crosses Engine</title>
+    <meta name="description"
+          content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
+    <meta name="theme-color" content="#F5D547">
+    <meta name="og:title" content="MENACE -- Matchbox Educable Noughts and Crosses Engine">
+    <meta name="og:description"
+          content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
+    <meta name="og:image" content="https://menace.thdr.dev/img/png/menace-og.png">
+    <meta name="og:url" content="https://menace.thdr.dev">
+    <meta name="og:type" content="website">
+    <link id="theme-css" rel="stylesheet">
+    <link rel="icon" href="img/png/favicon.png">
+    <link rel="stylesheet" href="css/opensauce.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+<body>
+<div class="navigation-block" id="navigation-block"></div>
+<div class="text-center root" id="root">
+    <div class="hamburger-button" id="hamburger-button">
+        <div class="nav-bar1"></div>
+        <div class="nav-bar2"></div>
+        <div class="nav-bar3"></div>
+    </div>
+    <h1 class="title text-7xl max-w-screen-md m-auto leading-loose">Analyze</h1>
+    <p class="max-w-screen-md m-auto description">
+        This page provides information on the current strength of MENACE. Keep in mind that any charts on this page only provide information on games played with human players, through the play page. Any games played against itself on the train page do not count towards this.
+    </p>
+    <br>
+    <p class="max-w-screen-md m-auto description">
+        Have someone else's analytics file? Upload it here.
+    </p>
+    <label class="button button-primary file-input">
+        Browse <input type="file" hidden="" accept=".json" class="file-input" id="analytics-upload">
+    </label>
+    <p class="description m-auto max-w-screen-lg text-l">
+        Upload status: <span id="analytics-upload-status">No file selected</span>
+    </p>
+    <br>
+
+    <center>
+        <canvas class="max-w-screen-md max-h-96" id="training-results"></canvas>
+        <canvas class="max-w-screen-md max-h-96" id="x-training-results"></canvas>
+        <canvas class="max-w-screen-md max-h-96" id="o-training-results"></canvas>
+    </center>
+    <p class="description text-center text-5xl max-w-screen-md m-auto leading-loose">
+        View matchboxes.</p>
+    <p class="description m-auto max-w-screen-lg text-l">
+        Toggle pieces to change the piece inside (empty, X, O).<br>
+        <br>
+    </p>
+    <div id="game" class="game max-w-sm m-auto leading-loose"></div>
+    <br>
+    <button class="button button-primary" id="reset-button">Reset</button>
+    <button class="button button-primary" id="submit-button">Submit</button>
+    <br>
+    <br>
+    <div id="matchbox" class="matchbox-container max-w-sm m-auto leading-loose"></div>
+    <p class="description m-auto max-w-screen-lg text-3xl">
+        Status: <span id="matchbox-status"></span>
+    </p>
+</div>
+<script src="js/navigation.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/ttt.js"></script>
+<script src="js/menace.js"></script>
+<script src="js/analyze.js"></script>
+<script src="js/gameboardColor.js"></script>
+<script src="js/analyzeboardstates.js"></script>
+<script src="js/analyticsUpload.js"></script>
+</body>
+</html>

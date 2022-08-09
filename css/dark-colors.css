@@ -1,0 +1,203 @@
+.description {
+    color: #EBEBD3;
+}
+
+.link {
+    color: #EBEBD3;
+}
+
+.link:hover {
+    color: #F5D547;
+}
+
+.title {
+    color: #EBEBD3;
+}
+
+.root {
+    background-color: #3c3c3b;
+}
+
+.theme-switcher {
+    color: transparent;
+    border: 2px solid #EBEBD3;
+    border-radius: 16px;
+}
+
+.theme-switcher:hover {
+    color: #EBEBD3;
+}
+
+.button {
+    background-color: #3c3c3b;
+    color: #EBEBD3;
+    border: 2px solid #EBEBD3;
+}
+
+.menu-list {
+    background-color: #3c3c3b;
+}
+
+.menu-item {
+    color: #EBEBD3;
+}
+
+.nav-bar1,
+.nav-bar2,
+.nav-bar3 {
+    background-color: #EBEBD3;
+}
+
+.menu-on .nav-bar2 {
+    background-color: transparent;
+}
+
+.slider-input {
+    background-color: #3c3c3b;
+    border: 2px solid #EBEBD3;
+}
+
+.slider-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #EBEBD3;
+    cursor: pointer;
+    box-shadow: -0px 0 12px 4px #EBEBD3;
+}
+
+.link:after {
+    border-color: #EBEBD3;
+}
+
+.link:hover:after {
+    border-color: #F5D547;
+}
+
+.x {
+    color: #EBEBD3;
+}
+
+.o {
+    color: #EBEBD3;
+}
+
+.game-cell {
+    border-color: #EBEBD3;
+}
+
+.progress-bar {
+    accent-color: #EBEBD3;
+    border-color: #EBEBD3;
+    background: #EBEBD3;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #3c3c3b;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #EBEBD3;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #EBEBD3;
+}
+
+#cell1-0-0 {
+    background-color: #880000;
+}
+
+#cell1-0-1 {
+    background-color: #008800;
+}
+
+#cell1-0-2 {
+    background-color: #000088;
+}
+
+#cell1-1-0 {
+    background-color: #888800;
+}
+
+#cell1-1-1 {
+    background-color: #880088;
+}
+
+#cell1-1-2 {
+    background-color: #008888;
+}
+
+#cell1-2-0 {
+    background-color: #888888;
+}
+
+#cell1-2-1 {
+    background-color: #444444;
+}
+
+#cell1-2-2 {
+    background-color: #000000;
+}
+
+#bean-0 {
+    background-color: #880000;
+}
+
+#bean-1 {
+    background-color: #008800;
+}
+
+#bean-2 {
+    background-color: #000088;
+}
+
+#bean-3 {
+    background-color: #888800;
+}
+
+#bean-4 {
+    background-color: #880088;
+}
+
+#bean-5 {
+    background-color: #008888;
+}
+
+#bean-6 {
+    background-color: #888888;
+}
+
+#bean-7 {
+    background-color: #444444;
+}
+
+#bean-8 {
+    background-color: #000000;
+}
+
+.link2:after {
+    background-color: #F5D547;
+}
+
+.link2:hover {
+    color: #3c3c3b;
+}
+
+.link2:after:hover {
+    background-color: #F5D547;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #3c3c3b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #EBEBD3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #F5D547;
+}

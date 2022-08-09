@@ -1,0 +1,269 @@
+:root {
+    --main-fonts:  "Open Sauce Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.title {
+    font-family: var(--main-fonts);
+    font-weight: 700;
+}
+
+.description {
+    font-family: var(--main-fonts);
+}
+
+.link {
+    font-family: var(--main-fonts);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.link:hover {
+    position: relative;
+}
+
+.link:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease-in-out;
+    bottom: 0;
+    left: 50%;
+    color: inherit;
+}
+
+.link:hover:after {
+    text-decoration: none;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    border-bottom-width: 2px;
+}
+
+.link2 {
+    font-family: var(--main-fonts);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.link2:hover {
+    position: relative;
+}
+
+.link2:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    bottom: 0;
+    left: 50%;
+    color: inherit;
+    z-index: -1;
+}
+
+.link2:hover:after {
+    text-decoration: none;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
+
+
+.root {
+    min-height: 100vh;
+}
+
+html * {
+    transition: all 0.1s ease-in-out;
+}
+
+.button {
+    border-radius: 12px;
+    padding: 10px 25px;
+    font-family: var(--main-fonts);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: translateY(2px);
+}
+
+.nav-links {
+    /* Allow overflow into multiple lines if needed */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: var(--main-fonts);
+    font-weight: 700;
+}
+
+.slider-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    width: 40%;
+    min-width: 300px;
+    opacity: 0.5;
+}
+
+.slider-input:hover {
+    opacity: 1;
+}
+
+.slider-input::-webkit-slider-thumb {
+    opacity: 0.5;
+    transition: all 0.1s ease-in-out;
+}
+
+.slider-input::-webkit-slider-thumb:hover {
+    opacity: 1;
+}
+
+.file-input {
+    margin: 20px 0;
+    line-height: 3.5
+}
+
+.game-board {
+    max-height: 768px;
+}
+
+.game-cell {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+}
+
+.x {
+    width: 100%;
+    height: 100%;
+}
+
+.o {
+    width: 100%;
+    height: 100%;
+}
+
+.empty {
+    width: 100%;
+    height: 100%;
+}
+
+#cell-0-0 {
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+#cell-0-1 {
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+}
+
+#cell-0-2 {
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+#cell-1-0 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#cell-1-1 {
+    border-width: 1px;
+}
+
+#cell-1-2 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#cell-2-0 {
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+#cell-2-1 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+#cell-2-2 {
+    border-top-width: 1px;
+    border-left-width: 1px;
+}
+
+.progress-bar {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 10px;
+}
+
+.progress-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.progress-bar::-webkit-progress-bar {
+
+}
+
+.progress-bar::-webkit-progress-value {
+
+}
+
+.progress-bar::-moz-progress-bar {
+
+}
+
+.progress-bar::before,
+.progress-bar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.bean-count {
+    opacity: 0.3;
+}
+
+.game-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+}
+

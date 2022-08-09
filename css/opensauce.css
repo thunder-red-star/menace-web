@@ -1,0 +1,100 @@
+/* CSS to load all Open Sauce Sans fonts */
+/* Font weights: 300 - 900, normal and italics */
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/opensauce/OpenSauceSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/opensauce/OpenSauceSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../font/opensauce/OpenSauceSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../font/opensauce/OpenSauceSans-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/opensauce/OpenSauceSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/opensauce/OpenSauceSans-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/opensauce/OpenSauceSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/opensauce/OpenSauceSans-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../font/opensauce/OpenSauceSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url(../font/opensauce/OpenSauceSans-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url(../font/opensauce/OpenSauceSans-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url(../font/opensauce/OpenSauceSans-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url(../font/opensauce/OpenSauceSans-ExtraBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sauce Sans';
+  font-style: italic;
+  font-weight: 900;
+  src: url(../font/opensauce/OpenSauceSans-BlackItalic.ttf) format('truetype');
+}

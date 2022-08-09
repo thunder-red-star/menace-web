@@ -1,0 +1,26 @@
+.moon-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.sun-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.theme-switcher {
+    margin: 0 auto;
+    z-index: 999;
+    padding: 5px;
+    width: 64px;
+    height: 64px;
+}
+
+.theme-switcher-button {
+    background-color: #EBEBD3;
+    cursor: pointer;
+}
+
+.theme-switcher:active {
+    transform: translateY(2px);
+}

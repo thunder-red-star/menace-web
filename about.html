@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MENACE -- Matchbox Educable Noughts and Crosses Engine</title>
+    <meta name="description"
+          content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
+    <meta name="theme-color" content="#F5D547">
+    <meta name="og:title" content="MENACE -- Matchbox Educable Noughts and Crosses Engine">
+    <meta name="og:description"
+          content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
+    <meta name="og:image" content="https://menace.thdr.dev/img/png/menace-og.png">
+    <meta name="og:url" content="https://menace.thdr.dev">
+    <meta name="og:type" content="website">
+    <link id="theme-css" rel="stylesheet">
+    <link rel="icon" href="img/png/favicon.png">
+    <link rel="stylesheet" href="css/opensauce.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+<body>
+<div class="navigation-block" id="navigation-block"></div>
+<div class="text-center root" id="root">
+    <div class="hamburger-button" id="hamburger-button">
+        <div class="nav-bar1"></div>
+        <div class="nav-bar2"></div>
+        <div class="nav-bar3"></div>
+    </div>
+    <h1 class="title text-7xl max-w-screen-md m-auto leading-loose">About this app</h1>
+    <p class="description m-auto max-w-screen-lg text-l">
+        This app serves as a computer-based simulation of MENACE, so one doesn't have to obtain 700 matchboxes, or play
+        hundreds of games manually, to understand how MENACE works. Provided are pages to play your games against a
+        MENACE-style AI, a page to train MENACE against itself (faster than playing games against it manually), a page
+        to load a preset weighting for MENACE's "matchboxes", and a page to analyze MENACE's weightings and view graphs,
+        as well as dump weightings.
+    </p>
+    <br>
+    <p class="description m-auto max-w-screen-lg text-l">
+        This app uses your LocalStorage as a database, so if you exit the page, your weightings will be saved. However,
+        on the train page, you can clear your weightings, so you can train against a new set of games.
+    </p>
+    <br>
+    <p class="description m-auto max-w-screen-lg text-l">
+        On the training page, you can configure how MENACE trains itself. Many configuration variables are available,
+        including rewards/punishments, initial weights, and more.
+    </p>
+    <br>
+    <p class="description m-auto max-w-screen-lg text-l">
+        This version of MENACE is meant to be more versatile than the original, being able to play both X and O.
+        However, the concepts of "matchboxes" determining moves is still the same -- there are just more matchboxes.
+    </p>
+</div>
+<script src="js/navigation.js"></script>
+<script src="js/theme.js"></script>
+</body>
+</html>

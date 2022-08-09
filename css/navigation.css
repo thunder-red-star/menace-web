@@ -1,0 +1,56 @@
+.hamburger-button {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+}
+
+.menu-list {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 400px;
+    height: 100%;
+    z-index: 998;
+    display: block;
+}
+
+.menu-item {
+    padding: 10px;
+    text-align: center;
+    font-family: var(--main-fonts);
+    font-weight: 700;
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    width: fit-content;
+}
+
+.navigation-block {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 997;
+}
+
+.nav-bar1,
+.nav-bar2,
+.nav-bar3 {
+    width: 100%;
+    height: 4px;
+    margin-bottom: 9px;
+    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.menu-on .nav-bar1 {
+    transform-origin: 10% 50%;
+    transform: rotate(45deg);
+}
+
+.menu-on .nav-bar3 {
+    transform-origin: 10% 50%;
+    transform: rotate(-45deg);
+}

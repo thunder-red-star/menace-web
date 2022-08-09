@@ -1,0 +1,202 @@
+.description {
+    color: #3C3C3B;
+}
+
+.link {
+    color: #3c3c3b;
+}
+
+.link:hover {
+    color: #1446A0;
+}
+
+.title {
+    color: #3C3C3B;
+}
+
+.root {
+    background-color: #EBEBD3;
+}
+
+.button {
+    background-color: #EBEBD3;
+    color: #3C3C3B;
+    border: 2px solid #3c3c3b;
+}
+
+.theme-switcher {
+    color: transparent;
+    border: 2px solid #3c3c3b;
+    border-radius: 16px;
+}
+
+.theme-switcher:hover {
+    color: #3c3c3b;
+}
+
+.menu-list {
+    background-color: #EBEBD3;
+}
+
+.menu-item {
+    color: #3C3C3B;
+}
+
+.nav-bar1,
+.nav-bar2,
+.nav-bar3 {
+    background-color: #3c3c3b;
+}
+
+.menu-on .nav-bar2 {
+    background-color: transparent;
+}
+
+.slider-input {
+    background-color: #EBEBD3;
+    border: 2px solid #3c3c3b;
+}
+
+.slider-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #3c3c3b;
+    cursor: pointer;
+}
+
+.link:after {
+    border-color: #3c3c3b;
+}
+
+.link:hover:after {
+    border-color: #1446A0;
+}
+
+.x {
+    color: #3c3c3b;
+}
+
+.o {
+    color: #3c3c3b;
+}
+
+.game-cell {
+    border-color: #3c3c3b;
+}
+
+.progress-bar {
+    accent-color: #3c3c3b;
+    border-color: #3c3c3b;
+    background-color: #3c3c3b;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #EBEBD3;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #3c3c3b;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #EBEBD3;
+}
+
+#cell1-0-0 {
+    background-color: #ff8888;
+}
+
+#cell1-0-1 {
+    background-color: #88ff88;
+}
+
+#cell1-0-2 {
+    background-color: #8888ff;
+}
+
+#cell1-1-0 {
+    background-color: #ffff88;
+}
+
+#cell1-1-1 {
+    background-color: #ff88ff;
+}
+
+#cell1-1-2 {
+    background-color: #88ffff;
+}
+
+#cell1-2-0 {
+    background-color: #ffffff;
+}
+
+#cell1-2-1 {
+    background-color: #bbbbbb;
+}
+
+#cell1-2-2 {
+    background-color: #888888;
+}
+
+#bean-0 {
+    background-color: #ff8888;
+}
+
+#bean-1 {
+    background-color: #88ff88;
+}
+
+#bean-2 {
+    background-color: #8888ff;
+}
+
+#bean-3 {
+    background-color: #ffff88;
+}
+
+#bean-4 {
+    background-color: #ff88ff;
+}
+
+#bean-5 {
+    background-color: #88ffff;
+}
+
+#bean-6 {
+    background-color: #ffffff;
+}
+
+#bean-7 {
+    background-color: #bbbbbb;
+}
+
+#bean-8 {
+    background-color: #888888;
+}
+
+.link2:after {
+    background-color: #1446A0;
+}
+
+.link2:hover {
+    color: #EBEBD3;
+}
+
+.link2:after:hover {
+    background-color: #1446A0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #EBEBD3;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3c3c3b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #1446A0;
+}

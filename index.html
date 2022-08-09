@@ -2,12 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>MENACE -- Matchbox Educable Noughts and Crosses Engine</title>
     <meta name="description" content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
     <meta name="theme-color" content="#F5D547">
     <meta name="og:title" content="MENACE -- Matchbox Educable Noughts and Crosses Engine">
     <meta name="og:description" content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
-    <meta name="og:image" content="https://menace.thdr.dev/img/menace-og.png">
-</head>
+    <meta name="og:image" content="https://menace.thdr.dev/img/png/menace-og.png">
+    <meta name="og:url" content="https://menace.thdr.dev">
+    <meta name="og:type" content="website">
+    <link id="theme-css" rel="stylesheet">
+    <link rel="icon" href="img/png/favicon.png">
+    <link rel="stylesheet" href="css/opensauce.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+<body>
+<div class="navigation-block" id="navigation-block"></div>
+<div class="text-center root" id="root">
+    <div class="hamburger-button" id="hamburger-button">
+        <div class="nav-bar1"></div>
+        <div class="nav-bar2"></div>
+        <div class="nav-bar3"></div>
+    </div>
+    <h1 class="title text-7xl max-w-screen-md m-auto leading-loose">MENACE</h1>
+    <p class="description m-auto max-w-screen-lg text-l">
+        MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines, and it was built to play Tic Tac Toe. It works by having a series of matchboxes, with each matchbox corresponding to a game state. Each matchbox contains some beads of different colors, and each bead represents a different move. MENACE works by choosing a random bead out of a matchbox that determines its next move. At the end of a game, MENACE will update the weights of the matchboxes corresponding to the game states it saw based on the outcome of the game.
+    </p>
+    <br>
+    <p class="description m-auto max-w-screen-lg text-l">
+        The rest of the app can be found by using the hamburger menu on the left!
+    </p>
+    <br>
+    <div class="grid grid-cols-3 grid-flow-cols gap-4">
+        <img class="w-full" src="img/png/screenshot-1.png" alt="Hamburger menu">
+        <img class="w-full" src="img/png/screenshot-2.png" alt="Tic Tac Toe board">
+        <img class="w-full" src="img/png/screenshot-3.png" alt="Training interface">
+        <img class="w-full" src="img/png/screenshot-4.png" alt="Load weights">
+        <img class="w-full" src="img/png/screenshot-5.png" alt="About page">
+        <img class="w-full" src="img/png/screenshot-6.png" alt="Analysis page">
+    </div>
+</div>
+<script src="js/navigation.js"></script>
+<script src="js/theme.js"></script>
+</body>
 </html>

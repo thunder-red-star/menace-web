@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MENACE -- Matchbox Educable Noughts and Crosses Engine</title>
+    <meta name="description"
+          content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
+    <meta name="theme-color" content="#F5D547">
+    <meta name="og:title" content="MENACE -- Matchbox Educable Noughts and Crosses Engine">
+    <meta name="og:description"
+          content="MENACE (or Matchbox Educable Noughts and Crosses Engine) is one of the first reinforcement learning engines to be implemented. It can play Tic Tac Toe. This is a simulation that you can train with your own games or its own games, or load some weighted presets.">
+    <meta name="og:image" content="https://menace.thdr.dev/img/png/menace-og.png">
+    <meta name="og:url" content="https://menace.thdr.dev">
+    <meta name="og:type" content="website">
+    <link id="theme-css" rel="stylesheet">
+    <link rel="icon" href="img/png/favicon.png">
+    <link rel="stylesheet" href="css/opensauce.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+<body>
+<div class="navigation-block" id="navigation-block"></div>
+<div class="text-center root" id="root">
+    <div class="hamburger-button" id="hamburger-button">
+        <div class="nav-bar1"></div>
+        <div class="nav-bar2"></div>
+        <div class="nav-bar3"></div>
+    </div>
+    <h1 class="title text-7xl max-w-screen-md m-auto leading-loose">Play</h1>
+    <button class="button button-primary" id="play-as-x-button">Play as X</button>
+    <button class="button button-primary" id="play-as-o-button">Play as O</button>
+    <br>
+    <br>
+    <div id="game" class="game max-w-lg m-auto leading-loose"></div>
+    <p class="description m-auto max-w-screen-lg text-5xl leading-loose"><span id="turn-text"></span></p>
+    <p class="description m-auto max-w-screen-lg text-3xl leading-loose"><span id="game-status"></span></p>
+    <p class="description m-auto max-w-screen-lg text-lg leading-loose">Have fun!</p>
+</div>
+<script src="js/navigation.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/ttt.js"></script>
+<script src="js/menace.js"></script>
+<script src="js/gameboard.js"></script>
+<script src="js/play.js"></script>
+</body>
+</html>
