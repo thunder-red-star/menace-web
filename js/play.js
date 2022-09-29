@@ -41,6 +41,10 @@ playAsXButton.addEventListener('click', function (event) {
 	gameStatus.innerHTML = 'Waiting for you to make a move...';
 });
 
+/*
+
+ */
+
 playAsOButton.addEventListener('click', async function (event) {
 	xMoves = [];
 	oMoves = [];
@@ -80,6 +84,8 @@ playAsOButton.addEventListener('click', async function (event) {
 		throw new Error('MENACE made an invalid move');
 	}
 });
+
+// this is so cute ngl, mini motorcycle sidecar with mg42 machine gun from ww2 in the 21st century
 
 updateCellOnGameBoard = function (row, col, player) {
 	let cell = document.getElementById(`cell-${row}-${col}`);
@@ -352,7 +358,7 @@ let handleCellClick = async function (event) {
 									oFitnessData = [1]
 								} else {
 									oFitnessData.push(oFitnessData[oFitnessData.length - 1] + 1);
-								}
+								} //
 							} else {
 								if (xFitnessData.length === 0) {
 									xFitnessData = [1]

@@ -30,13 +30,14 @@
         <div class="nav-bar3"></div>
     </div>
     <h1 class="title text-7xl max-w-screen-md m-auto leading-loose">Train</h1>
-    <p class="description m-auto max-w-screen-lg text-l leading-10">
-        Press the button below to create a new MENACE AI. This WILL overwrite any existing AI.
+    <p class="description m-auto max-w-screen-lg text-l">
+        Press the button below to create a new MENACE AI, which is required to play any games on the Play page or train the AI. This WILL overwrite any existing AI.
     </p>
+    <br>
     <button class="button button-primary" id="create-button">Create</button>
     <p class="description m-auto max-w-screen-lg text-l leading-10">Creation status: <span id="create-status"></span></p>
     <p class="description m-auto max-w-screen-lg text-l leading-10">
-        Press the below button to start training.
+        Press the below button to start training. Each time you click this button, the AI will train itself (this uses the weights from the last training, instead of resetting them to random values).
     </p>
     <button class="button button-primary" id="train-button-1">1 Game</button>
     <button class="button button-primary" id="train-button-10">10 Games</button>
@@ -44,9 +45,6 @@
     <button class="button button-primary" id="train-button-1000">1000 Games</button>
     <br>
     <br>
-    <p class="description m-auto max-w-screen-lg text-l">
-        If training stops (the progress bar doesn't move after a while), it means that somewhere along training, there is a state that the AI has no moves for (all weights are 0 or below). There's no way to fix this other than attempting to rerun training again and hoping it works, or resetting the weights and using a higher initial weight.
-    </p>
     <br>
         <progress id="training-progress" max="1000" value="0" class="progress leading-loose progress-bar"></progress>
     <p class="description m-auto max-w-screen-lg text-l leading-10">Training status: <span id="train-status"></span></p>

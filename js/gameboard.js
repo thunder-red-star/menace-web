@@ -22,11 +22,10 @@ for (let i = 0; i < 3; i++) {
 		gamePieceElement.classList.add('game-cell');
 		gamePieceElement.id = `cell-${i}-${j}`;
 		gamePieceElement.innerHTML = emptyCell;
-		// Get the piece and set piece-id to the cell id
-
-		// Add the event listener to the cell
 		gameRowElement.appendChild(gamePieceElement);
 	}
 	gameBoardElement.appendChild(gameRowElement);
 }
+// div tag
+// TODO: Add the game board to the gameBoardDiv
 gameBoardDiv.appendChild(gameBoardElement);

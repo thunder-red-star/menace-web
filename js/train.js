@@ -21,7 +21,7 @@ if (penaltyValue === null) {
 	localStorage.setItem('penalty', penaltyValue);
 }
 if (initialValue === null) {
-	initialValue = 1;
+	initialValue = 4;
 	localStorage.setItem('initial', initialValue);
 }
 

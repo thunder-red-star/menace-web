@@ -87,4 +87,3 @@ menuList.appendChild(themeSwitcherDiv);
 // Add the menu to the page
 document.body.appendChild(hamburgerButton);
 document.body.appendChild(menuList);
-
